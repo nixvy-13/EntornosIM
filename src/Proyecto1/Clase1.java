@@ -16,6 +16,10 @@ public class Clase1 {
 			int radio=in.nextInt();
 			System.out.println(calcularAreaCilindro(radio));
 			System.out.println("Intro lado 1");
+			int lado1r=in.nextInt();
+			System.out.println("Intro lado 2");
+			int lado2r=in.nextInt();
+			System.out.println("Intro lado 1");
 			int lado1=in.nextInt();
 			System.out.println(calcularVolumenCubo(lado1));
 			
@@ -29,6 +33,9 @@ public class Clase1 {
 		}
 		public static double calcularVolumenCubo(int lado1) {
 			return (lado1*lado1*lado1);
+		}
+		public static double calcularAreaRectangulo(int lado1, int lado2) {
+			return(lado1*lado2);
 		}
 		
 
